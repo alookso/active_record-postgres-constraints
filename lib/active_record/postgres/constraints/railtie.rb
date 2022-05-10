@@ -27,7 +27,7 @@ if defined?(::Rails::Railtie)
           end
 
           def pg?
-            config = ActiveRecord::Base.connection_config
+            config = ActiveRecord::Base.connection_db_config
             return true if config && config[:adapter].in?(%w[postgresql postgis])
 
             Rails.logger.warn do
