@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveRecord	lib/active_record/postgres/constraints.rb	/^module ActiveRecord$/;"	m
+ActiveRecord	lib/active_record/postgres/constraints/command_recorder.rb	/^module ActiveRecord$/;"	m
+ActiveRecord	lib/active_record/postgres/constraints/postgresql_adapter.rb	/^module ActiveRecord$/;"	m
+ActiveRecord	lib/active_record/postgres/constraints/railtie.rb	/^  module ActiveRecord$/;"	m
+ActiveRecord	lib/active_record/postgres/constraints/schema_creation.rb	/^module ActiveRecord$/;"	m
+ActiveRecord	lib/active_record/postgres/constraints/schema_dumper.rb	/^module ActiveRecord$/;"	m
+ActiveRecord	lib/active_record/postgres/constraints/table_definition.rb	/^module ActiveRecord$/;"	m
+ActiveRecord	lib/active_record/postgres/constraints/types/exclude.rb	/^module ActiveRecord$/;"	m
+ActiveRecord	lib/active_record/postgres/constraints/version.rb	/^module ActiveRecord$/;"	m
+CommandRecorder	lib/active_record/postgres/constraints/command_recorder.rb	/^      module CommandRecorder$/;"	m	class:ActiveRecord.Postgres.Constraints
+Constraints	lib/active_record/postgres/constraints.rb	/^    module Constraints$/;"	m	class:ActiveRecord.Postgres
+Constraints	lib/active_record/postgres/constraints/command_recorder.rb	/^    module Constraints$/;"	m	class:ActiveRecord.Postgres
+Constraints	lib/active_record/postgres/constraints/postgresql_adapter.rb	/^    module Constraints$/;"	m	class:ActiveRecord.Postgres
+Constraints	lib/active_record/postgres/constraints/railtie.rb	/^      module Constraints$/;"	m	class:ActiveRecord.Postgres
+Constraints	lib/active_record/postgres/constraints/schema_creation.rb	/^    module Constraints$/;"	m	class:ActiveRecord.Postgres
+Constraints	lib/active_record/postgres/constraints/schema_dumper.rb	/^    module Constraints$/;"	m	class:ActiveRecord.Postgres
+Constraints	lib/active_record/postgres/constraints/table_definition.rb	/^    module Constraints$/;"	m	class:ActiveRecord.Postgres
+Constraints	lib/active_record/postgres/constraints/types/exclude.rb	/^    module Constraints$/;"	m	class:ActiveRecord.Postgres
+Constraints	lib/active_record/postgres/constraints/version.rb	/^    module Constraints$/;"	m	class:ActiveRecord.Postgres
+Exclude	lib/active_record/postgres/constraints/types/exclude.rb	/^        module Exclude$/;"	m	class:ActiveRecord.Postgres.Constraints.Types
+PostgreSQLAdapter	lib/active_record/postgres/constraints/postgresql_adapter.rb	/^      module PostgreSQLAdapter$/;"	m	class:ActiveRecord.Postgres.Constraints
+Postgres	lib/active_record/postgres/constraints.rb	/^  module Postgres$/;"	m	class:ActiveRecord
+Postgres	lib/active_record/postgres/constraints/command_recorder.rb	/^  module Postgres$/;"	m	class:ActiveRecord
+Postgres	lib/active_record/postgres/constraints/postgresql_adapter.rb	/^  module Postgres$/;"	m	class:ActiveRecord
+Postgres	lib/active_record/postgres/constraints/railtie.rb	/^    module Postgres$/;"	m	class:ActiveRecord
+Postgres	lib/active_record/postgres/constraints/schema_creation.rb	/^  module Postgres$/;"	m	class:ActiveRecord
+Postgres	lib/active_record/postgres/constraints/schema_dumper.rb	/^  module Postgres$/;"	m	class:ActiveRecord
+Postgres	lib/active_record/postgres/constraints/table_definition.rb	/^  module Postgres$/;"	m	class:ActiveRecord
+Postgres	lib/active_record/postgres/constraints/types/exclude.rb	/^  module Postgres$/;"	m	class:ActiveRecord
+Postgres	lib/active_record/postgres/constraints/version.rb	/^  module Postgres$/;"	m	class:ActiveRecord
+Railtie	lib/active_record/postgres/constraints/railtie.rb	/^        class Railtie < ::Rails::Railtie$/;"	c	class:ActiveRecord.Postgres.Constraints
+SchemaCreation	lib/active_record/postgres/constraints/schema_creation.rb	/^      module SchemaCreation$/;"	m	class:ActiveRecord.Postgres.Constraints
+SchemaDumper	lib/active_record/postgres/constraints/schema_dumper.rb	/^      module SchemaDumper$/;"	m	class:ActiveRecord.Postgres.Constraints
+TableDefinition	lib/active_record/postgres/constraints/table_definition.rb	/^      module TableDefinition$/;"	m	class:ActiveRecord.Postgres.Constraints
+Types	lib/active_record/postgres/constraints/types/exclude.rb	/^      module Types$/;"	m	class:ActiveRecord.Postgres.Constraints
+add_constraint	lib/active_record/postgres/constraints/postgresql_adapter.rb	/^        def add_constraint(type, table, name_or_conditions, conditions)$/;"	f	class:ActiveRecord.Postgres
+add_constraint	lib/active_record/postgres/constraints/table_definition.rb	/^        def add_constraint(type, name_or_conditions, conditions)$/;"	f	class:ActiveRecord.Postgres.Constraints
+adjust_nesting	lib/active_record/postgres/constraints/schema_creation.rb	/^        def adjust_nesting(nesting, token)$/;"	f	class:ActiveRecord.Postgres.Constraints.SchemaCreation
+apply_patch!	lib/active_record/postgres/constraints/railtie.rb	/^          def apply_patch!$/;"	f	class:ActiveRecord.Postgres.Constraints.Railtie
+class_for_constraint_type	lib/active_record/postgres/constraints.rb	/^      def self.class_for_constraint_type(type)$/;"	F	class:ActiveRecord.Postgres.Constraints
+constraints	lib/active_record/postgres/constraints/postgresql_adapter.rb	/^        def constraints(table)$/;"	f	class:ActiveRecord.Postgres
+definition_to_exclusions	lib/active_record/postgres/constraints/types/exclude.rb	/^            def definition_to_exclusions(definition)$/;"	f	class:ActiveRecord.Postgres.Constraints.Types.Exclude
+dump_constraints	lib/active_record/postgres/constraints/schema_dumper.rb	/^        def dump_constraints(constraints, stream)$/;"	f	class:ActiveRecord.Postgres.Constraints.SchemaDumper
+dump_indexes	lib/active_record/postgres/constraints/schema_dumper.rb	/^        def dump_indexes(indexes, stream)$/;"	f	class:ActiveRecord.Postgres.Constraints.SchemaDumper
+element_and_operator	lib/active_record/postgres/constraints/types/exclude.rb	/^            def element_and_operator(exclusion)$/;"	f	class:ActiveRecord.Postgres.Constraints.Types.Exclude
+example_constraint	lib/active_record/postgres/constraints/types/exclude.rb	/^            def example_constraint$/;"	f	class:ActiveRecord.Postgres.Constraints.Types.Exclude
+index_name	lib/active_record/postgres/constraints/schema_dumper.rb	/^        def index_name(index)$/;"	f	class:ActiveRecord.Postgres.Constraints.SchemaDumper
+indexes_in_create	lib/active_record/postgres/constraints/schema_dumper.rb	/^        def indexes_in_create(table, stream)$/;"	f	class:ActiveRecord.Postgres.Constraints.SchemaDumper
+normalize_conditions	lib/active_record/postgres/constraints/types/exclude.rb	/^            def normalize_conditions(conditions)$/;"	f	class:ActiveRecord.Postgres.Constraints.Types.Exclude
+normalize_element	lib/active_record/postgres/constraints/types/exclude.rb	/^            def normalize_element(element)$/;"	f	class:ActiveRecord.Postgres.Constraints.Types.Exclude
+normalize_name_and_conditions	lib/active_record/postgres/constraints.rb	/^      def self.normalize_name_and_conditions(table, name_or_conditions, conditions)$/;"	F	class:ActiveRecord.Postgres.Constraints
+normalize_operator	lib/active_record/postgres/constraints/types/exclude.rb	/^            def normalize_operator(operator)$/;"	f	class:ActiveRecord.Postgres.Constraints.Types.Exclude
+pg?	lib/active_record/postgres/constraints/railtie.rb	/^          def pg?$/;"	f	class:ActiveRecord.Postgres.Constraints.Railtie
+remove_constraint	lib/active_record/postgres/constraints/postgresql_adapter.rb	/^        def remove_constraint(_type, table, name, _conditions)$/;"	f	class:ActiveRecord.Postgres
+to_schema_dump	lib/active_record/postgres/constraints/types/exclude.rb	/^            def to_schema_dump(constraint)$/;"	f	class:ActiveRecord.Postgres.Constraints.Types.Exclude
+to_sql	lib/active_record/postgres/constraints/types/exclude.rb	/^            def to_sql(table, name_or_conditions, conditions = nil)$/;"	f	class:ActiveRecord.Postgres.Constraints.Types.Exclude
+visit_TableDefinition	lib/active_record/postgres/constraints/schema_creation.rb	/^        def visit_TableDefinition(table_definition)$/;"	f	class:ActiveRecord.Postgres.Constraints.SchemaCreation

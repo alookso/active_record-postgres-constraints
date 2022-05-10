@@ -27,8 +27,8 @@ if defined?(::Rails::Railtie)
           end
 
           def pg?
-            config = ActiveRecord::Base.connection_config
-            return true if config && config[:adapter].in?(%w[postgresql postgis])
+            config = ActiveRecord::Base.connection_db_config
+            return true if config && config.configuration_hash[:adapter].in?(%w[postgresql postgis])
 
             Rails.logger.warn do
               'Not applying Postgres Constraints patches to ActiveRecord ' \
