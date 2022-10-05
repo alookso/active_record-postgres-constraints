@@ -72,7 +72,7 @@ module ActiveRecord
             end
 
             def normalize_element(element)
-              element.include?('(') ? "'#{element}' =>" : "#{element}:"
+              element.include?('(') ? "\"#{element}\":" : "#{element}:"
             end
 
             def normalize_operator(operator)
